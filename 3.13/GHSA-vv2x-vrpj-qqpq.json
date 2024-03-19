@@ -1,0 +1,48 @@
+{
+	"id": "GHSA-vv2x-vrpj-qqpq",
+	"vulnerabilities": [
+		{
+			"id": "GHSA-vv2x-vrpj-qqpq",
+			"references": [
+				{
+					"source": "security.alpinelinux.org",
+					"url": "https://security.alpinelinux.org/vuln/GHSA-vv2x-vrpj-qqpq"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alpine:3.13",
+			"vulnerable": true,
+			"package": {
+				"name": "py3-bleach",
+				"repositories": [
+					"community"
+				],
+				"architectures": [
+					"aarch64",
+					"armhf",
+					"armv7",
+					"mips64",
+					"ppc64le",
+					"s390x",
+					"x86",
+					"x86_64"
+				]
+			},
+			"affected": {
+				"type": "apk",
+				"range": [
+					{
+						"lt": "3.2.3-r1"
+					}
+				],
+				"fixed": [
+					"3.2.3-r1"
+				]
+			}
+		}
+	],
+	"data_source": "alpine-secdb"
+}

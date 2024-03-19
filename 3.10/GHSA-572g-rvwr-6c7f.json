@@ -1,0 +1,47 @@
+{
+	"id": "GHSA-572g-rvwr-6c7f",
+	"vulnerabilities": [
+		{
+			"id": "GHSA-572g-rvwr-6c7f",
+			"references": [
+				{
+					"source": "security.alpinelinux.org",
+					"url": "https://security.alpinelinux.org/vuln/GHSA-572g-rvwr-6c7f"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alpine:3.10",
+			"vulnerable": true,
+			"package": {
+				"name": "squid",
+				"repositories": [
+					"main"
+				],
+				"architectures": [
+					"aarch64",
+					"armhf",
+					"armv7",
+					"ppc64le",
+					"s390x",
+					"x86",
+					"x86_64"
+				]
+			},
+			"affected": {
+				"type": "apk",
+				"range": [
+					{
+						"lt": "4.15-r0"
+					}
+				],
+				"fixed": [
+					"4.15-r0"
+				]
+			}
+		}
+	],
+	"data_source": "alpine-secdb"
+}

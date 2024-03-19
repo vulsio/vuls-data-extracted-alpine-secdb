@@ -1,0 +1,48 @@
+{
+	"id": "XSA-251",
+	"vulnerabilities": [
+		{
+			"id": "XSA-251",
+			"references": [
+				{
+					"source": "security.alpinelinux.org",
+					"url": "https://security.alpinelinux.org/vuln/XSA-251"
+				}
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alpine:edge",
+			"vulnerable": true,
+			"package": {
+				"name": "xen",
+				"repositories": [
+					"main"
+				],
+				"architectures": [
+					"aarch64",
+					"armhf",
+					"armv7",
+					"ppc64le",
+					"riscv64",
+					"s390x",
+					"x86",
+					"x86_64"
+				]
+			},
+			"affected": {
+				"type": "apk",
+				"range": [
+					{
+						"lt": "4.10.0-r1"
+					}
+				],
+				"fixed": [
+					"4.10.0-r1"
+				]
+			}
+		}
+	],
+	"data_source": "alpine-secdb"
+}
