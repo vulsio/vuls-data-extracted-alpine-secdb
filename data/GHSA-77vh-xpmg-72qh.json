@@ -1,0 +1,137 @@
+{
+	"id": "GHSA-77vh-xpmg-72qh",
+	"vulnerabilities": [
+		{
+			"content": {
+				"id": "GHSA-77vh-xpmg-72qh",
+				"references": [
+					{
+						"source": "security.alpinelinux.org",
+						"url": "https://security.alpinelinux.org/vuln/GHSA-77vh-xpmg-72qh"
+					}
+				]
+			},
+			"ecosystems": [
+				"alpine:3.19",
+				"alpine:3.20",
+				"alpine:edge"
+			]
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alpine:3.19",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "singularity",
+							"architectures": [
+								"aarch64",
+								"armhf",
+								"armv7",
+								"ppc64le",
+								"s390x",
+								"x86",
+								"x86_64"
+							],
+							"repositories": [
+								"community"
+							]
+						},
+						"affected": {
+							"type": "apk",
+							"range": [
+								{
+									"lt": "3.8.5-r0"
+								}
+							],
+							"fixed": [
+								"3.8.5-r0"
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"ecosystem": "alpine:3.20",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "singularity",
+							"architectures": [
+								"aarch64",
+								"armhf",
+								"armv7",
+								"ppc64le",
+								"riscv64",
+								"s390x",
+								"x86",
+								"x86_64"
+							],
+							"repositories": [
+								"community"
+							]
+						},
+						"affected": {
+							"type": "apk",
+							"range": [
+								{
+									"lt": "3.8.5-r0"
+								}
+							],
+							"fixed": [
+								"3.8.5-r0"
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"ecosystem": "alpine:edge",
+			"criteria": {
+				"operator": "OR",
+				"criterions": [
+					{
+						"vulnerable": true,
+						"package": {
+							"name": "singularity",
+							"architectures": [
+								"aarch64",
+								"armhf",
+								"armv7",
+								"ppc64le",
+								"riscv64",
+								"s390x",
+								"x86",
+								"x86_64"
+							],
+							"repositories": [
+								"community"
+							]
+						},
+						"affected": {
+							"type": "apk",
+							"range": [
+								{
+									"lt": "3.8.5-r0"
+								}
+							],
+							"fixed": [
+								"3.8.5-r0"
+							]
+						}
+					}
+				]
+			}
+		}
+	],
+	"data_source": "alpine-secdb"
+}
