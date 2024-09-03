@@ -95,5 +95,11 @@
 			}
 		}
 	],
-	"data_source": "alpine-secdb"
+	"data_source": {
+		"id": "alpine-secdb",
+		"raws": [
+			"vuls-data-raw-alpine-secdb/3.20/community.json",
+			"vuls-data-raw-alpine-secdb/edge/community.json"
+		]
+	}
 }
