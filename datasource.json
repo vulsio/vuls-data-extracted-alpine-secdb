@@ -4,8 +4,8 @@
 	"raw": [
 		{
 			"url": "https://github.com/vulsio/vuls-data-raw-alpine-secdb",
-			"commit": "425dae98c33487bea765df550df460130d55df5b",
-			"date": "2024-09-16T12:06:53Z"
+			"commit": "9cb749c8566898172878e134bf6b270ab23d2a65",
+			"date": "2024-09-17T12:06:55Z"
 		}
 	],
 	"extracted": {
