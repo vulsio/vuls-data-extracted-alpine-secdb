@@ -25,6 +25,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "yubikey-manager-qt",
 							"architectures": [
@@ -63,6 +66,9 @@
 				"criterions": [
 					{
 						"vulnerable": true,
+						"fix_status": {
+							"class": "fixed"
+						},
 						"package": {
 							"name": "yubikey-manager-qt",
 							"architectures": [
