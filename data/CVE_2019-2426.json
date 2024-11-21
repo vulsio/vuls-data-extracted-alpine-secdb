@@ -11,131 +11,149 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"alpine:3.7",
-				"alpine:3.8",
-				"alpine:3.9"
+			"segments": [
+				{
+					"ecosystem": "alpine:3.7"
+				},
+				{
+					"ecosystem": "alpine:3.8"
+				},
+				{
+					"ecosystem": "alpine:3.9"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "alpine:3.7",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "openjdk7",
-							"architectures": [
-								"aarch64",
-								"armhf",
-								"ppc64le",
-								"s390x",
-								"x86",
-								"x86_64"
-							],
-							"repositories": [
-								"community"
-							]
-						},
-						"affected": {
-							"type": "apk",
-							"range": [
-								{
-									"lt": "7.211.2.6.17-r0"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "openjdk7",
+									"architectures": [
+										"aarch64",
+										"armhf",
+										"ppc64le",
+										"s390x",
+										"x86",
+										"x86_64"
+									],
+									"repositories": [
+										"community"
+									]
+								},
+								"affected": {
+									"type": "apk",
+									"range": [
+										{
+											"lt": "7.211.2.6.17-r0"
+										}
+									],
+									"fixed": [
+										"7.211.2.6.17-r0"
+									]
 								}
-							],
-							"fixed": [
-								"7.211.2.6.17-r0"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		},
 		{
 			"ecosystem": "alpine:3.8",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "openjdk7",
-							"architectures": [
-								"aarch64",
-								"armhf",
-								"ppc64le",
-								"s390x",
-								"x86",
-								"x86_64"
-							],
-							"repositories": [
-								"community"
-							]
-						},
-						"affected": {
-							"type": "apk",
-							"range": [
-								{
-									"lt": "7.211.2.6.17-r0"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "openjdk7",
+									"architectures": [
+										"aarch64",
+										"armhf",
+										"ppc64le",
+										"s390x",
+										"x86",
+										"x86_64"
+									],
+									"repositories": [
+										"community"
+									]
+								},
+								"affected": {
+									"type": "apk",
+									"range": [
+										{
+											"lt": "7.211.2.6.17-r0"
+										}
+									],
+									"fixed": [
+										"7.211.2.6.17-r0"
+									]
 								}
-							],
-							"fixed": [
-								"7.211.2.6.17-r0"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		},
 		{
 			"ecosystem": "alpine:3.9",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "openjdk7",
-							"architectures": [
-								"aarch64",
-								"armhf",
-								"armv7",
-								"ppc64le",
-								"s390x",
-								"x86",
-								"x86_64"
-							],
-							"repositories": [
-								"community"
-							]
-						},
-						"affected": {
-							"type": "apk",
-							"range": [
-								{
-									"lt": "7.211.2.6.17-r0"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "openjdk7",
+									"architectures": [
+										"aarch64",
+										"armhf",
+										"armv7",
+										"ppc64le",
+										"s390x",
+										"x86",
+										"x86_64"
+									],
+									"repositories": [
+										"community"
+									]
+								},
+								"affected": {
+									"type": "apk",
+									"range": [
+										{
+											"lt": "7.211.2.6.17-r0"
+										}
+									],
+									"fixed": [
+										"7.211.2.6.17-r0"
+									]
 								}
-							],
-							"fixed": [
-								"7.211.2.6.17-r0"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {

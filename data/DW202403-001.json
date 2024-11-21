@@ -11,95 +11,107 @@
 					}
 				]
 			},
-			"ecosystems": [
-				"alpine:3.20",
-				"alpine:edge"
+			"segments": [
+				{
+					"ecosystem": "alpine:3.20"
+				},
+				{
+					"ecosystem": "alpine:edge"
+				}
 			]
 		}
 	],
-	"detection": [
+	"detections": [
 		{
 			"ecosystem": "alpine:3.20",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "libdwarf",
-							"architectures": [
-								"aarch64",
-								"armhf",
-								"armv7",
-								"ppc64le",
-								"riscv64",
-								"s390x",
-								"x86",
-								"x86_64"
-							],
-							"repositories": [
-								"main"
-							]
-						},
-						"affected": {
-							"type": "apk",
-							"range": [
-								{
-									"lt": "0.9.2-r0"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "libdwarf",
+									"architectures": [
+										"aarch64",
+										"armhf",
+										"armv7",
+										"ppc64le",
+										"riscv64",
+										"s390x",
+										"x86",
+										"x86_64"
+									],
+									"repositories": [
+										"main"
+									]
+								},
+								"affected": {
+									"type": "apk",
+									"range": [
+										{
+											"lt": "0.9.2-r0"
+										}
+									],
+									"fixed": [
+										"0.9.2-r0"
+									]
 								}
-							],
-							"fixed": [
-								"0.9.2-r0"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		},
 		{
 			"ecosystem": "alpine:edge",
-			"criteria": {
-				"operator": "OR",
-				"criterions": [
-					{
-						"vulnerable": true,
-						"fix_status": {
-							"class": "fixed"
-						},
-						"package": {
-							"name": "libdwarf",
-							"architectures": [
-								"aarch64",
-								"armhf",
-								"armv7",
-								"loongarch64",
-								"ppc64le",
-								"riscv64",
-								"s390x",
-								"x86",
-								"x86_64"
-							],
-							"repositories": [
-								"main"
-							]
-						},
-						"affected": {
-							"type": "apk",
-							"range": [
-								{
-									"lt": "0.9.2-r0"
+			"conditions": [
+				{
+					"criteria": {
+						"operator": "OR",
+						"criterions": [
+							{
+								"vulnerable": true,
+								"fix_status": {
+									"class": "fixed"
+								},
+								"package": {
+									"name": "libdwarf",
+									"architectures": [
+										"aarch64",
+										"armhf",
+										"armv7",
+										"loongarch64",
+										"ppc64le",
+										"riscv64",
+										"s390x",
+										"x86",
+										"x86_64"
+									],
+									"repositories": [
+										"main"
+									]
+								},
+								"affected": {
+									"type": "apk",
+									"range": [
+										{
+											"lt": "0.9.2-r0"
+										}
+									],
+									"fixed": [
+										"0.9.2-r0"
+									]
 								}
-							],
-							"fixed": [
-								"0.9.2-r0"
-							]
-						}
+							}
+						]
 					}
-				]
-			}
+				}
+			]
 		}
 	],
 	"data_source": {
