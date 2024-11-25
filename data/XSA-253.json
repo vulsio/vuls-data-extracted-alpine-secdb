@@ -45,35 +45,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -89,35 +92,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -133,36 +139,39 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"mips64",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"mips64",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -178,36 +187,39 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"mips64",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"mips64",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -223,35 +235,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -267,34 +282,37 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]
@@ -310,35 +328,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "xen",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.10.0-r1"
-										}
-									],
-									"fixed": [
-										"4.10.0-r1"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "xen",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.10.0-r1"
+											}
+										],
+										"fixed": [
+											"4.10.0-r1"
+										]
+									}
 								}
 							}
 						]

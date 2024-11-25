@@ -39,35 +39,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "squid",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.15-r0"
-										}
-									],
-									"fixed": [
-										"4.15-r0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "squid",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.15-r0"
+											}
+										],
+										"fixed": [
+											"4.15-r0"
+										]
+									}
 								}
 							}
 						]
@@ -83,35 +86,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "squid",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.15-r0"
-										}
-									],
-									"fixed": [
-										"4.15-r0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "squid",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.15-r0"
+											}
+										],
+										"fixed": [
+											"4.15-r0"
+										]
+									}
 								}
 							}
 						]
@@ -127,36 +133,39 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "squid",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"mips64",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "4.15-r0"
-										}
-									],
-									"fixed": [
-										"4.15-r0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "squid",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"mips64",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "4.15-r0"
+											}
+										],
+										"fixed": [
+											"4.15-r0"
+										]
+									}
 								}
 							}
 						]
@@ -172,36 +181,39 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "squid",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"mips64",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "5.0.6-r0"
-										}
-									],
-									"fixed": [
-										"5.0.6-r0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "squid",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"mips64",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "5.0.6-r0"
+											}
+										],
+										"fixed": [
+											"5.0.6-r0"
+										]
+									}
 								}
 							}
 						]
@@ -217,35 +229,38 @@
 						"operator": "OR",
 						"criterions": [
 							{
-								"vulnerable": true,
-								"fix_status": {
-									"class": "fixed"
-								},
-								"package": {
-									"name": "squid",
-									"architectures": [
-										"aarch64",
-										"armhf",
-										"armv7",
-										"ppc64le",
-										"s390x",
-										"x86",
-										"x86_64"
-									],
-									"repositories": [
-										"main"
-									]
-								},
-								"affected": {
-									"type": "apk",
-									"range": [
-										{
-											"lt": "5.0.6-r0"
-										}
-									],
-									"fixed": [
-										"5.0.6-r0"
-									]
+								"type": "version",
+								"version": {
+									"vulnerable": true,
+									"fix_status": {
+										"class": "fixed"
+									},
+									"package": {
+										"name": "squid",
+										"architectures": [
+											"aarch64",
+											"armhf",
+											"armv7",
+											"ppc64le",
+											"s390x",
+											"x86",
+											"x86_64"
+										],
+										"repositories": [
+											"main"
+										]
+									},
+									"affected": {
+										"type": "apk",
+										"range": [
+											{
+												"lt": "5.0.6-r0"
+											}
+										],
+										"fixed": [
+											"5.0.6-r0"
+										]
+									}
 								}
 							}
 						]
