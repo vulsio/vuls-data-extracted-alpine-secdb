@@ -37,20 +37,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "py3-bleach",
-										"architectures": [
-											"aarch64",
-											"armhf",
-											"armv7",
-											"mips64",
-											"ppc64le",
-											"s390x",
-											"x86",
-											"x86_64"
-										],
-										"repositories": [
-											"community"
-										]
+										"type": "source",
+										"source": {
+											"name": "py3-bleach",
+											"repositories": [
+												"community"
+											]
+										}
 									},
 									"affected": {
 										"type": "apk",
@@ -85,19 +78,13 @@
 										"class": "fixed"
 									},
 									"package": {
-										"name": "py3-bleach",
-										"architectures": [
-											"aarch64",
-											"armhf",
-											"armv7",
-											"ppc64le",
-											"s390x",
-											"x86",
-											"x86_64"
-										],
-										"repositories": [
-											"community"
-										]
+										"type": "source",
+										"source": {
+											"name": "py3-bleach",
+											"repositories": [
+												"community"
+											]
+										}
 									},
 									"affected": {
 										"type": "apk",
