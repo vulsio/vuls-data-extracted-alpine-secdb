@@ -1,20 +1,17 @@
 {
-	"id": "CVE-2024-39924",
+	"id": "GHSA-h6cc-rc6q-23j4",
 	"vulnerabilities": [
 		{
 			"content": {
-				"id": "CVE-2024-39924",
+				"id": "GHSA-h6cc-rc6q-23j4",
 				"references": [
 					{
 						"source": "security.alpinelinux.org",
-						"url": "https://security.alpinelinux.org/vuln/CVE-2024-39924"
+						"url": "https://security.alpinelinux.org/vuln/GHSA-h6cc-rc6q-23j4"
 					}
 				]
 			},
 			"segments": [
-				{
-					"ecosystem": "alpine:3.20"
-				},
 				{
 					"ecosystem": "alpine:3.21"
 				},
@@ -25,47 +22,6 @@
 		}
 	],
 	"detections": [
-		{
-			"ecosystem": "alpine:3.20",
-			"conditions": [
-				{
-					"criteria": {
-						"operator": "OR",
-						"criterions": [
-							{
-								"type": "version",
-								"version": {
-									"vulnerable": true,
-									"fix_status": {
-										"class": "fixed"
-									},
-									"package": {
-										"type": "source",
-										"source": {
-											"name": "vaultwarden",
-											"repositories": [
-												"community"
-											]
-										}
-									},
-									"affected": {
-										"type": "apk",
-										"range": [
-											{
-												"lt": "1.32.0"
-											}
-										],
-										"fixed": [
-											"1.32.0"
-										]
-									}
-								}
-							}
-						]
-					}
-				}
-			]
-		},
 		{
 			"ecosystem": "alpine:3.21",
 			"conditions": [
@@ -93,11 +49,11 @@
 										"type": "apk",
 										"range": [
 											{
-												"lt": "1.32.0-r0"
+												"lt": "1.33.0-r0"
 											}
 										],
 										"fixed": [
-											"1.32.0-r0"
+											"1.33.0-r0"
 										]
 									}
 								}
@@ -134,11 +90,11 @@
 										"type": "apk",
 										"range": [
 											{
-												"lt": "1.32.0-r0"
+												"lt": "1.33.0-r0"
 											}
 										],
 										"fixed": [
-											"1.32.0-r0"
+											"1.33.0-r0"
 										]
 									}
 								}
@@ -152,7 +108,6 @@
 	"data_source": {
 		"id": "alpine-secdb",
 		"raws": [
-			"vuls-data-raw-alpine-secdb/3.20/community.json",
 			"vuls-data-raw-alpine-secdb/3.21/community.json",
 			"vuls-data-raw-alpine-secdb/edge/community.json"
 		]
